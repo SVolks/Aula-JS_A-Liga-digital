@@ -1,0 +1,46 @@
+{
+    "nome": "Stephanie",
+    "idade": 21,
+    "altura": 1.62,
+    "data_nascimento": "2000-09-29",
+    "irmãos": [
+        {
+            "nome": "Nome1",
+            "idade": 15,
+        },
+        {
+            "nome": "NNome2",
+            "idade": 11,
+        }
+    ]
+}
+
+var pessoa = {
+    nome: "Asdrubal",
+    idade: 25,
+};
+{"id":124,"nome":"Asdrubal","idade":25}
+{"id":125,"nome":"Josfal","idade":31}
+
+var pessoaStr = JSON.stringify(pessoa);
+console.log(pessoaStr);
+
+// EXEMPLO DE JSON //
+{
+    "id":382,
+    "name":"Worldender",
+    "status":"Dead",
+    "species":"Alien",
+    "type":"",
+    "gender":"Male"
+}
+
+// EXEMPLO XML //
+<character>
+    <id>382</id>
+    <name>Worldender</name>
+    <status>Dead</status>
+    <species>Alien</species>
+    <type>Type</type>
+    <gender>Male</gender>
+</character>
